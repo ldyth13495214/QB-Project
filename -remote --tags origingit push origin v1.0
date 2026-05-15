@@ -1,0 +1,30 @@
+[33mtag v1.0[m
+Tagger: ldyth13495214 <2374686409@qq.com>
+Date:   Fri May 15 11:03:31 2026 +0800
+
+完成登录模块测试点编写与分支合并，项目首个基线版本
+
+[33mcommit f60f077c448a0d2c945aeda254328883f997b977[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;33mtag: [m[1;33mv1.0[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: d6a8d8c 8e9db16
+Author: ldyth13495214 <2374686409@qq.com>
+Date:   Fri May 15 10:53:16 2026 +0800
+
+    merge: 合并develop分支，解决README冲突
+
+[1mdiff --cc README.md[m
+[1mindex ec23230,4e9e146..2817192[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@@ -1,6 -1,6 +1,11 @@@[m
+  # QB-Project[m
+  软件过程控制与质量保证课程项目[m
+  ## 课程项目[m
+[31m--## 课程项目[m
+[32m++[m
+[32m++[m
+[32m +## 生产版本[m
+[32m +当前生产环境版本为v1.0，稳定运行中。[m
+[32m++[m
+[32m+ ## 开发状态[m
+[32m+ 当前正在开发登录模块的二次验证功能。[m
+[32m++[m
